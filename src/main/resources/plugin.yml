@@ -1,0 +1,14 @@
+name: JLog
+main: com.gmail.www.woodrow73.jlog.JLog
+version: 0.1
+author: Jwood9198
+description: Log all chat events to a database
+website: http://doctorwood73.com
+
+commands:
+   query:
+      description: Initiate a query; customizing your search on the database
+      usage: /<command> <_pName | all_> <_keyword | null_>
+   queryperms:
+      description: Add/remove players from having permission to make queries and use queryperms command (no args will print out list)
+      usage: /<command> <_add | remove_> <pName>
