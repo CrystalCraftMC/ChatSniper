@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright 2015 CrystalCraftMC
+  ~ Copyright 2015 Alex Woodward
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -18,13 +18,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.gmail.www.woodrow73.jlog</groupId>
+    <groupId>com.gmail.www.woodrow73.chatsniper</groupId>
     <artifactId>ChatSniper</artifactId>
     <version>1.8.3-R0.1-SNAPSHOT</version>
 
     <profiles>
         <profile>
-            <id>com.gmail.www.woodrow73.JLog</id>
+            <id>com.gmail.www.woodrow73.chatsniper</id>
             <build>
                 <finalName>ChatSniper</finalName>
                 <directory>src/main/java/</directory>

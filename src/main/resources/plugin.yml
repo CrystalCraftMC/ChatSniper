@@ -1,14 +1,28 @@
 name: ChatSniper
-main: com.gmail.www.woodrow73.jlog.JLog
-version: 0.1
+main: com.gmail.www.woodrow73.chatsniper.ChatSniper
+version: 0.2
 author: Jwood9198
-description: Log all chat events to a database
+description: Log all chat events to a database.
 website: http://doctorwood73.com
 
+#<number precision> <number query-power> <bow name> <true/false deals damage> <true/false shows commands>
 commands:
    query:
-      description: Initiate a query; customizing your search on the database
+      description: Initiate a query; customizing your search on the database.  Can be 0-2 arguments.
       usage: /<command> <_pName | all_> <_keyword | null_>
    queryperms:
-      description: Add/remove players from having permission to make queries and use queryperms command (no args will print out list)
+      description: Add/remove players from being on the permslist to use all TextWrangler commands.
       usage: /<command> <_add | remove_> <pName>
+   querybow:
+      description: Craft bows that execute queries on people they hit.
+      usage: /<command>
+   querydownload:
+      description:  Download your entire log history into the database
+      usage: /<command>
+   queryhelp:
+      description: Get a link to a page of concise information about TextWrangler
+      usage: /<command>
+   queryListen:
+      description: Toggle whether messages are currently being recorded or not
+      usage: /<command> <true/false>
+   
