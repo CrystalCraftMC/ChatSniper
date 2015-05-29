@@ -1,4 +1,4 @@
-ChatSniper
+ChatSniper [![Build Status](https://travis-ci.org/CrystalCraftMC/ChatSniper.svg)](https://travis-ci.org/CrystalCraftMC/ChatSniper)
 ==========
 
 ## What is it?
